@@ -29,6 +29,7 @@
   },
   "scripts": {
     "build": "./scripts/build.sh",
+    "prepare": "npm run build",
     "clean": "rm -rf dist",
     "publish": "npm publish --access public"
   }
